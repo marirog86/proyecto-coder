@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    margin-top: 1px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 60px;
+    bottom: 150px;
+    img{
+        width: 70px;
+    }
+}

@@ -1,0 +1,25 @@
+.faq{
+    width: 100%;
+    height: 65vh;
+    padding: 25px;
+    color:#38302e;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        background-color: #9e878494;
+        color: azure; 
+    }
+    .accordion-button:focus {
+        box-shadow: none; 
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background-color: #9e878494;
+        color: azure; 
+    }
+}
+

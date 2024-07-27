@@ -10,25 +10,6 @@ body {
 }
 
 /*Header*/
-logo{
-    width: 150px;
-    height: 15  0px;
-    margin-left: 15px;
-}
-
-/*header nav{
-    text-align: center;
-    height: auto;
-    padding: 20px 20 px;
-    background-color:#f5cec7;
-    font-family: "Montserrat", sans-serif;
-    border-bottom: 2px solid  rgb(196, 196, 196);
-    position: sticky;
-    top:0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}*/
 
 .menu {
     background-color: rgb(168, 196, 168) ; 
@@ -55,24 +36,6 @@ header nav img{
     border: 2px solid #ce9990 ;
 
 }
-
-/*header nav ul {
-    display: flex;
-    margin-right: 15px;
-}
-
-header nav ul li{
-    text-align: center;
-    list-style: none;
-    
-    margin: 10px 10px 10px 10px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #463c3a;
-}*/
 
 /*Main*/
 
@@ -142,14 +105,13 @@ main {
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 20px;
-    /*padding-bottom: 20px;*/
 }
 .carousel-caption{
     color: #38302e;
     background-color: rgba(240, 255, 255, 0.651);
 }
 
-
+/*Productos*/
 .galeria_productos{
     width: 100%;
     margin-top: 40px;
@@ -157,7 +119,6 @@ main {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-auto-rows: 250px;
-    /*gap:25px;*/
 }
 
 .galeria_productos div img{
@@ -395,12 +356,6 @@ main {
     padding: 25px;
     color:#38302e;
     text-align: center;
-
-   /* background-image: url(../img/nosotros3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
 }
 
 .sobreNos p{
@@ -413,7 +368,6 @@ main {
 
 .contact {
     width: 100%;
-    /*height: 65vh;*/
     padding: 25px;
     color:#38302e;
     text-align: center;
@@ -437,17 +391,12 @@ main {
     margin: 5px;
 }
 
-.faq ul li{
-    margin: 20px;
-    font-size: 20px;
-}
 
 .faq {
     width: 100%;
     height: 65vh;
     padding: 25px;
     color:#38302e;
-   /* background-image: url(../img/nosotros2.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

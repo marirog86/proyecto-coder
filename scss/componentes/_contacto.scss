@@ -1,0 +1,36 @@
+.contact{
+    width: 100%;
+    padding: 25px;
+    color:#38302e;
+    text-align: center;
+    background-image: url(../img/contacto4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    h1{
+        text-align: center;
+        text-transform: uppercase; 
+    }
+    p{
+        text-align: center;
+    }
+    div{
+        margin: 5px;
+    }
+    form {
+        text-align: center;
+        color:#463c3a;
+        font-weight: bold;
+        margin: 10px 10px 10px 10px;
+        .boton-form{
+            input{
+                color:azure;
+                background-color: #463c3a;
+                border-radius: 5px ;
+                padding: 10px;
+                font-family: "Montserrat", sans-serif
+            }
+        }
+    }
+}
