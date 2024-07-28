@@ -31,6 +31,11 @@
         width: 350px;
         text-align: center;
     }
+
+    .sobreNos p{
+        width: 800px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1080px){
@@ -72,6 +77,10 @@
         grid-column: span 2;
     }
 
+    .sobreNos p{
+        width: 600px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 950px){
@@ -148,6 +157,14 @@
     .carousel{
         display: none;
     }
+
+    .sobreNos p{
+        width: 500px;
+    }
+
+    .sobreNos iframe{
+        width: 500px !important;
+    }
 }
 
 
@@ -191,6 +208,13 @@
         margin-top:10px;
         grid-template-rows:  325px 550px 325px 650px 325px 650px;
     }
+
+    .sobreNos p{
+        width: 400px;
+    }
+    .sobreNos iframe{
+        width: 400px !important;
+    }
 }
 
 @media screen and (max-width: 567px){
@@ -215,6 +239,19 @@
         height: 60vh;
     }
 
+    .sobreNos p{
+        width: 300px;
+        font-size: 14px;
+        
+    }
+
+    .sobreNos h1{
+        font-size: 25px;
+    }
+
+    .sobreNos iframe{
+        width: 300px !important;
+    }
 }
 
 @media screen and (max-width: 466px){
@@ -270,6 +307,10 @@
 
     .banner{
         height: 60vh;
+    }
+
+    .sobreNos p{
+        width: 250px;
     }
 
 }

@@ -21,3 +21,18 @@ main {
         width: 70px;
     }
 }
+
+//COLORES
+$color-principal:#38302e;
+$color-boton-menu: $color-principal, white ;
+$color-header: #f5cec7;
+
+//EXTENDS
+%flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+//MIXIN

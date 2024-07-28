@@ -1,7 +1,6 @@
 header{
     .menu{
-        background-color: rgb(168, 196, 168) ; 
-        background-color: #f5cec7 !important;
+        background-color: $color-header !important;
         z-index: 1 !important;
     }
 
@@ -15,10 +14,10 @@ header{
                 border: 1px solid rgb(84, 124, 84);
                 border: 2px solid #d6b1ab;
                 border-radius: 5px;
-                color:#38302e;
+                color: nth($color-boton-menu,1);
                 &:hover{
                     background-color: #ce9990;
-                    color: white;
+                    color: nth($color-boton-menu,2);
                     border: 2px solid #ce9990;
                 }
             }

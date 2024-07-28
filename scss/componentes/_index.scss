@@ -2,7 +2,7 @@
     width: 100%;
     height: 70vh;
     padding: 20px;
-    color:#38302e;
+    color: nth($color-boton-menu,1);
     text-align: center;
     background-image: url(../img/cole-keister-ZN9LhLYCVko-unsplash.jpg);
     background-position: center;
@@ -40,7 +40,7 @@
         border-radius: 5px;
         &:hover{
             background-color: rgba(240, 255, 255, 0.719);
-        color: #38302e;
+        color: nth($color-boton-menu,1);
         border: 1px solid #695d5bec ;
         }
     }
@@ -52,7 +52,7 @@
     padding-top: 20px;
     .carousel-item{
         .carousel-caption{
-            color: #38302e;
+            color: nth($color-boton-menu,1);
             background-color: rgba(240, 255, 255, 0.651);
         }
     }
@@ -105,10 +105,7 @@
         }
     }
     .texto-flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       @extend %flex;
         p{
             font-size: 18px;
             margin-left: 50px;

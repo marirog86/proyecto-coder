@@ -1,36 +1,37 @@
 .contact{
-    width: 100%;
+    height: auto;
     padding: 25px;
+    text-align: justify;
     color:#38302e;
-    text-align: center;
-    background-image: url(../img/contacto4.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     h1{
         text-align: center;
         text-transform: uppercase; 
+        background-color: #9e878494;
+        color: azure; 
     }
-    p{
+    p {
         text-align: center;
+        margin: 20px;
     }
     div{
         margin: 5px;
     }
-    form {
-        text-align: center;
-        color:#463c3a;
-        font-weight: bold;
-        margin: 10px 10px 10px 10px;
-        .boton-form{
+
+    .boton-form{
             input{
-                color:azure;
-                background-color: #463c3a;
+                color: $color-principal;
+                background-color: #9e878494;
+                border-color: #9e878494 ;
                 border-radius: 5px ;
-                padding: 10px;
-                font-family: "Montserrat", sans-serif
+                padding: 5px;
+                font-family: "Montserrat", sans-serif;
+                &:hover{
+                    background-color: $color-header;
+                }
             }
         }
+    .form-control:focus {
+            border-color: #9e878494; 
+            box-shadow: 0 0 5px $color-principal;
+        }
     }
-}
