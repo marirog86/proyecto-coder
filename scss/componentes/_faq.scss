@@ -1,25 +1,28 @@
 .faq{
     height: 100%;
     padding: 25px;
-    padding-bottom: 155px;
-    color:#38302e;
+    padding-bottom: 55px;
+    color:$color-principal;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     h1{
-        text-transform: uppercase;
         text-align: center;
-        background-color: #9e878494;
-        color: azure; 
+        font-size: 30px;
+        text-transform: uppercase;
+        background-color: $color-encabezado;
+        color: nth($color-boton-menu,2);
+        text-transform: uppercase;
+        padding: 15px; 
     }
     .accordion-button:focus {
         box-shadow: none; 
     }
     
     .accordion-button:not(.collapsed) {
-        background-color: #9e878494;
-        color: azure; 
+        background-color: $color-encabezado;
+        color: nth($color-boton-menu,2); 
     }
 }
 

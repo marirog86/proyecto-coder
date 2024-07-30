@@ -5,9 +5,12 @@
     color:#38302e;
     h1{
         text-align: center;
-        text-transform: uppercase; 
-        background-color: #9e878494;
-        color: azure; 
+        font-size: 30px;
+        text-transform: uppercase;
+        background-color: $color-encabezado;
+        color: nth($color-boton-menu,2);
+        text-transform: uppercase;
+        padding: 15px;
     }
     p {
         text-align: center;
@@ -20,8 +23,8 @@
     .boton-form{
             input{
                 color: $color-principal;
-                background-color: #9e878494;
-                border-color: #9e878494 ;
+                background-color: $color-encabezado;
+                border-color: $color-encabezado ;
                 border-radius: 5px ;
                 padding: 5px;
                 font-family: "Montserrat", sans-serif;
@@ -31,7 +34,7 @@
             }
         }
     .form-control:focus {
-            border-color: #9e878494; 
+            border-color: $color-encabezado; 
             box-shadow: 0 0 5px $color-principal;
         }
     }

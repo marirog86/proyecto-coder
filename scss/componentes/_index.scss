@@ -9,16 +9,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;    
-    display: flex;
+    @extend %flex ;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
     h1{
-        color: #695d5b;
-        border: 2px solid #38302e8a;
+        color: $color-h1;
+        border: 2px solid $color-h1;
         font-size: 50px;
         font-weight: bold;
-        /*display: inline-block;*/
         padding: 20px;
         margin: 30px;
     }
@@ -28,20 +26,21 @@
         font-size: 20px;
         width: 1000px;
         padding: 20px;
-        background-color:  rgba(240, 255, 255, 0.651);
+        background-color: $color-fondo;
     }
-    a{
+    a{ 
         text-decoration: none;
-        background-color: #695d5bec;
-        border: 2px solid #8d797694;
-        color: azure;
-        font-size: 18px;
+        background-color: $color-h1;
+        color: nth($color-boton-menu,2);
+        border: 1px solid $color-header;
+        font-size: 20px;
         padding: 10px;
         border-radius: 5px;
+        transition: 1s;
         &:hover{
-            background-color: rgba(240, 255, 255, 0.719);
-        color: nth($color-boton-menu,1);
-        border: 1px solid #695d5bec ;
+            background-color: $color-header;
+            color: $color-principal;
+            border-color: $color-principal;
         }
     }
 }
@@ -96,7 +95,7 @@
     .grid_item{
         position: relative;
         h3{
-            color:#38302e;
+            color:$color-principal;
             width: 100%;
             top: 0;
             padding: 10px;
@@ -131,10 +130,18 @@
     .mas-vendidos-item{
         position: relative;
         margin: 20px;
+        transition: 1s;
+        &:hover{
+            transform: scale(1.05);
+            transform: scale(1.05);
+            -webkit-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: -2px 7px 14px 0px rgba(0,0,0,0.75);
+        
+        }
         h3{
             position: absolute;
-            background-color: #38302e8a;
-            background-color: #9e878494;
+            background-color: $color-encabezado;
             color: azure;
             width: 100%;
             top: 0;
@@ -143,7 +150,7 @@
         }
         a{
             position: absolute;
-            background-color: #9e878494;
+            background-color: $color-encabezado;
             color: azure;
             width: 100%;
             bottom: 0;
@@ -158,8 +165,8 @@
 .mas-vendidos-h2{
     margin-top: 25px;
     text-align: center;
-    color:#38302e;
-    background-color: #9e878494;
+    color: $color-principal;
+    background-color: $color-encabezado;
     color: azure;
     text-transform: uppercase;
     padding: 15px;

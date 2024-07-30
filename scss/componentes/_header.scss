@@ -11,14 +11,13 @@ header{
         }
         form{
             .boton-menu{
-                border: 1px solid rgb(84, 124, 84);
-                border: 2px solid #d6b1ab;
+                border: 2px solid nth($color-boton-menu,3);
                 border-radius: 5px;
                 color: nth($color-boton-menu,1);
                 &:hover{
-                    background-color: #ce9990;
+                    background-color: nth($color-boton-menu,4);
                     color: nth($color-boton-menu,2);
-                    border: 2px solid #ce9990;
+                    border: 2px solid nth($color-boton-menu,4);
                 }
             }
         }

@@ -13,6 +13,7 @@ main {
     font-family: "Montserrat", sans-serif;
 }
 
+
 .whatsapp{
     position: fixed;
     right: 60px;
@@ -24,8 +25,11 @@ main {
 
 //COLORES
 $color-principal:#38302e;
-$color-boton-menu: $color-principal, white ;
+$color-boton-menu: $color-principal, azure, #d6b1ab, #ce9990;
 $color-header: #f5cec7;
+$color-h1:#695d5b;
+$color-encabezado:#9e878494;
+$color-fondo:rgba(240, 255, 255, 0.651);
 
 //EXTENDS
 %flex{
@@ -41,4 +45,10 @@ $color-header: #f5cec7;
     display: $display;
     grid-template-columns: $columns;
     grid-auto-rows: $rows;
+}
+
+@mixin flex($display, $justify, $align){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
 }
