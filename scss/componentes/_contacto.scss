@@ -3,6 +3,7 @@
     padding: 25px;
     text-align: justify;
     color:#38302e;
+    @extend %flex;
     h1{
         text-align: center;
         font-size: 30px;
@@ -37,4 +38,13 @@
             border-color: $color-encabezado; 
             box-shadow: 0 0 5px $color-principal;
         }
+    .mb-3{
+        .custom-width-1{
+            width: 500px;
+        }
+        .custom-coment{
+            width: 500px;
+            height: 200px;
+        }
+    }
     }

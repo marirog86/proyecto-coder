@@ -17,7 +17,7 @@ main {
   .whatsapp img {
     width: 70px; }
 
-.banner, .galeria_grid .texto-flex {
+.banner, .galeria_grid .texto-flex, .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,8 +50,7 @@ header nav form .boton-menu {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  flex-direction: column; }
+  background-attachment: fixed; }
   .banner h1 {
     color: #695d5b;
     border: 2px solid #695d5b;
@@ -304,6 +303,11 @@ header nav form .boton-menu {
   .contact .form-control:focus {
     border-color: #9e878494;
     box-shadow: 0 0 5px #38302e; }
+  .contact .mb-3 .custom-width-1 {
+    width: 500px; }
+  .contact .mb-3 .custom-coment {
+    width: 500px;
+    height: 200px; }
 
 .faq {
   height: 100%;

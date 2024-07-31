@@ -10,7 +10,6 @@
     background-size: cover;
     background-attachment: fixed;    
     @extend %flex ;
-    flex-direction: column;
     
     h1{
         color: $color-h1;
