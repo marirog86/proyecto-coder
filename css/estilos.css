@@ -473,6 +473,12 @@ footer {
   .sobreNos iframe {
     width: 400px !important; } }
 
+@media screen and (max-width: 600px) {
+  .contact .mb-3 .custom-width-1 {
+    width: 300px; }
+  .contact .mb-3 .custom-coment {
+    width: 300px; } }
+
 @media screen and (max-width: 567px) {
   .whatsapp {
     display: none; } }
