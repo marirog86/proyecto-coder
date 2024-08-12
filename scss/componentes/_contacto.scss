@@ -23,14 +23,16 @@
 
     .boton-form{
             input{
-                color: $color-principal;
-                background-color: $color-encabezado;
-                border-color: $color-encabezado ;
+                background-color: $color-h1;
+                color: nth($color-boton-menu,2);
+                border-color: $color-h1;
+                border: 1px;
                 border-radius: 5px ;
                 padding: 5px;
                 font-family: "Montserrat", sans-serif;
+                transition: 1s;
                 &:hover{
-                    background-color: $color-header;
+                    background-color: $color-hover-nav;
                 }
             }
         }

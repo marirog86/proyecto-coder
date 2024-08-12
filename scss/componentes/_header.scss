@@ -37,6 +37,10 @@ header{
                     border: 2px solid nth($color-boton-menu,4);
                 }
             }
+            .form-control:focus{
+                border-color: $color-encabezado; 
+                box-shadow: 0 0 5px $color-principal;
+            }
         }
         .nav-link {
             transition: 0.5s;

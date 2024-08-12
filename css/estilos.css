@@ -56,6 +56,10 @@ header nav form .boton-menu {
     color: azure;
     border: 2px solid #ce9990; }
 
+header nav form .form-control:focus {
+  border-color: #9e878494;
+  box-shadow: 0 0 5px #38302e; }
+
 header nav .nav-link {
   transition: 0.5s; }
   header nav .nav-link:hover {
@@ -166,8 +170,7 @@ header nav .active {
     margin: 20px;
     transition: 1s; }
     .mas-vendidos .mas-vendidos-item:hover {
-      transform: scale(1.05);
-      transform: scale(1.05);
+      transform: scale(1.01);
       -webkit-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
       box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75); }
@@ -216,8 +219,7 @@ header nav .active {
     margin: 10px;
     transition: 1s; }
     .galeria_productos .productos_item:hover {
-      transform: scale(1.05);
-      transform: scale(1.05);
+      transform: scale(1.01);
       -webkit-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75);
       box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75); }
@@ -315,14 +317,16 @@ header nav .active {
   .contact div {
     margin: 5px; }
   .contact .boton-form input {
-    color: #38302e;
-    background-color: #9e878494;
-    border-color: #9e878494;
+    background-color: #695d5b;
+    color: azure;
+    border-color: #695d5b;
+    border: 1px;
     border-radius: 5px;
     padding: 5px;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    transition: 1s; }
     .contact .boton-form input:hover {
-      background-color: #f5cec7; }
+      background-color: #e06e59; }
   .contact .form-control:focus {
     border-color: #9e878494;
     box-shadow: 0 0 5px #38302e; }
@@ -350,7 +354,8 @@ header nav .active {
     text-transform: uppercase;
     padding: 15px; }
   .faq .accordion-button:focus {
-    box-shadow: none; }
+    border-color: #9e878494;
+    box-shadow: 0 0 5px #38302e; }
   .faq .accordion-button:not(.collapsed) {
     background-color: #9e878494;
     color: azure; }
@@ -551,8 +556,6 @@ footer {
   .mas-vendidos-item {
     grid-column: span 1;
     grid-row: span 1; }
-  .mas-vendidos {
-    grid-template-columns: 1fr; }
   .mas-vendidos {
     grid-template-columns: 1fr; }
   .galeria_productos .productos_item {

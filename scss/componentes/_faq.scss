@@ -17,7 +17,8 @@
         padding: 15px; 
     }
     .accordion-button:focus {
-        box-shadow: none; 
+        border-color: $color-encabezado; 
+        box-shadow: 0 0 5px $color-principal;
     }
     
     .accordion-button:not(.collapsed) {
