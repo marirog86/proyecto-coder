@@ -13,7 +13,7 @@ main {
 .whatsapp {
   position: fixed;
   right: 60px;
-  bottom: 150px; }
+  bottom: 50px; }
   .whatsapp img {
     width: 70px; }
 
@@ -27,23 +27,48 @@ header .menu {
   background-color: #f5cec7 !important;
   z-index: 1 !important; }
 
+header nav .marca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  margin-right: 10px; }
+
+header nav .marca-nombre {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  color: #38302e; }
+
 header nav img {
-  width: 80px;
-  height: 80px; }
+  width: 60px;
+  height: 60px; }
 
 header nav form .boton-menu {
   border: 2px solid #d6b1ab;
   border-radius: 5px;
   color: #38302e; }
   header nav form .boton-menu:hover {
-    background-color: #ce9990;
+    background-color: #e06e59;
     color: azure;
     border: 2px solid #ce9990; }
+
+header nav .nav-link {
+  transition: 0.5s; }
+  header nav .nav-link:hover {
+    color: #e06e59 !important;
+    font-weight: bold; }
+
+header nav .active {
+  font-weight: bold;
+  color: #e06e59 !important; }
 
 .banner {
   width: 100%;
   height: 70vh;
-  padding: 20px;
   color: #38302e;
   text-align: center;
   background-image: url(../img/cole-keister-ZN9LhLYCVko-unsplash.jpg);
@@ -69,15 +94,12 @@ header nav form .boton-menu {
     text-decoration: none;
     background-color: #695d5b;
     color: azure;
-    border: 1px solid #f5cec7;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px;
     border-radius: 5px;
     transition: 1s; }
     .banner a:hover {
-      background-color: #f5cec7;
-      color: #38302e;
-      border-color: #38302e; }
+      background-color: #e06e59; }
 
 .carousel {
   padding-left: 60px;
@@ -113,18 +135,19 @@ header nav form .boton-menu {
   .galeria_grid .grid_item {
     position: relative; }
     .galeria_grid .grid_item h3 {
-      color: #38302e;
+      color: #e06e59;
       width: 100%;
       top: 0;
       padding: 10px;
       text-align: center;
-      font-size: 25px; }
+      font-size: 28px; }
   .galeria_grid .texto-flex p {
     font-size: 18px;
     margin-left: 50px;
     margin-right: 50px;
     width: 600px;
-    text-align: center; }
+    text-align: center;
+    color: #6f6d6d; }
 
 .mas-vendidos {
   width: 100%;
@@ -268,10 +291,10 @@ header nav form .boton-menu {
     font-size: 20px;
     text-align: justify;
     display: inline-block;
-    margin: 20px; }
+    margin: 20px;
+    color: #6f6d6d; }
   .sobreNos iframe {
-    display: block;
-    margin: auto; }
+    width: 100%; }
 
 .contact {
   height: auto;
@@ -332,6 +355,23 @@ header nav form .boton-menu {
     background-color: #9e878494;
     color: azure; }
 
+/*footer{
+    padding: 20px;
+    border-top: 2px solid  rgb(196, 196, 196);
+    background-color: $color-header;
+    font-family: "Montserrat", sans-serif;
+    @include flex(flex, space-between, center);
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    div{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}*/
 footer {
   padding: 20px;
   border-top: 2px solid #c4c4c4;
@@ -339,13 +379,19 @@ footer {
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column; }
   footer img {
     width: 80px;
-    height: 80px; }
+    height: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px; }
   footer div img {
-    width: 50px;
-    height: 50px; }
+    width: 30px;
+    height: 30px; }
+  footer .redes:hover {
+    color: #e06e59; }
 
 @media screen and (max-width: 1400px) {
   .mas-vendidos {
@@ -539,3 +585,7 @@ footer {
     height: 60vh; }
   .sobreNos p {
     width: 250px; } }
+
+@media screen and (max-width: 367px) {
+  .galeria_grid {
+    grid-template-columns: 330px; } }

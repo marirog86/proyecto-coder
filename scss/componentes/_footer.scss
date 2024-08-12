@@ -1,4 +1,4 @@
-footer{
+/*footer{
     padding: 20px;
     border-top: 2px solid  rgb(196, 196, 196);
     background-color: $color-header;
@@ -14,4 +14,30 @@ footer{
             height: 50px;
         }
     }
+}*/
+
+footer{
+    padding: 20px;
+    border-top: 2px solid  rgb(196, 196, 196);
+    background-color: $color-header;
+    font-family: "Montserrat", sans-serif;
+    @include flex(flex, space-between, center, column);
+    img{
+        width: 80px;
+        height: 80px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    div{
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .redes{
+        &:hover{
+            color: $color-hover-nav;
+        }
+    } 
 }

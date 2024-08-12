@@ -324,3 +324,11 @@
     }
 
 }
+
+@media screen and (max-width: 367px){
+    .galeria_grid{
+        grid-template-columns: 330px;
+    }
+    
+
+}

@@ -5,9 +5,26 @@ header{
     }
 
     nav{
+        .marca{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 15px;
+            margin-right: 10px;
+        }
+        .marca-nombre{
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 10px;
+            color: $color-principal;
+        }
+        
         img{
-            width: 80px;
-            height: 80px;
+            width: 60px;
+            height: 60px;
         }
         form{
             .boton-menu{
@@ -15,11 +32,22 @@ header{
                 border-radius: 5px;
                 color: nth($color-boton-menu,1);
                 &:hover{
-                    background-color: nth($color-boton-menu,4);
+                    background-color: $color-hover-nav;
                     color: nth($color-boton-menu,2);
                     border: 2px solid nth($color-boton-menu,4);
                 }
             }
+        }
+        .nav-link {
+            transition: 0.5s;
+            &:hover{
+                color: $color-hover-nav !important;
+                font-weight: bold;
+            }
+        }
+        .active{
+            font-weight: bold;
+            color: $color-hover-nav !important;
         }
     }
 }

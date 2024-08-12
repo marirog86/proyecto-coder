@@ -17,7 +17,7 @@ main {
 .whatsapp{
     position: fixed;
     right: 60px;
-    bottom: 150px;
+    bottom: 50px;
     img{
         width: 70px;
     }
@@ -30,6 +30,8 @@ $color-header: #f5cec7;
 $color-h1:#695d5b;
 $color-encabezado:#9e878494;
 $color-fondo:rgba(240, 255, 255, 0.651);
+$color-hover-nav: #e06e59;
+$color-parrafo:rgb(111, 109, 109);
 
 //EXTENDS
 %flex{
@@ -47,8 +49,9 @@ $color-fondo:rgba(240, 255, 255, 0.651);
     grid-auto-rows: $rows;
 }
 
-@mixin flex($display, $justify, $align){
+@mixin flex($display, $justify, $align, $direction){
     display: $display;
     justify-content: $justify;
     align-items: $align;
+    flex-direction: $direction;
 }
