@@ -540,6 +540,8 @@ footer {
 
 @media screen and (max-width: 567px) {
   .whatsapp {
+    display: none; }
+  .flecha {
     display: none; } }
 
 @media screen and (max-width: 520px) {
