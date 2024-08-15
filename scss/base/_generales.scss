@@ -16,19 +16,21 @@ main {
 
 .whatsapp{
     position: fixed;
-    right: 60px;
-    bottom: 50px;
+    right: 30px;
+    bottom: 40px;
     img{
-        width: 70px;
+        width: 60px;
     }
 }
 
 //COLORES
 $color-principal:#38302e;
 $color-boton-menu: $color-principal, azure, #d6b1ab, #ce9990;
-$color-header: #f5cec7;
+//$color-header: #f5cec7;
+$color-header: #FFC6AC;
 $color-h1:#695d5b;
-$color-encabezado:#9e878494;
+//$color-encabezado:#9e878494;
+$color-encabezado:#C4C1A4;
 $color-fondo:rgba(240, 255, 255, 0.651);
 $color-hover-nav: #e06e59;
 $color-parrafo:rgb(111, 109, 109);

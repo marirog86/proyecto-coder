@@ -12,10 +12,10 @@ main {
 
 .whatsapp {
   position: fixed;
-  right: 60px;
-  bottom: 50px; }
+  right: 30px;
+  bottom: 40px; }
   .whatsapp img {
-    width: 70px; }
+    width: 60px; }
 
 .banner, .galeria_grid .texto-flex, .contact {
   display: flex;
@@ -24,7 +24,7 @@ main {
   align-items: center; }
 
 header .menu {
-  background-color: #f5cec7 !important;
+  background-color: #FFC6AC !important;
   z-index: 1 !important; }
 
 header nav .marca {
@@ -57,7 +57,7 @@ header nav form .boton-menu {
     border: 2px solid #ce9990; }
 
 header nav form .form-control:focus {
-  border-color: #9e878494;
+  border-color: #C4C1A4;
   box-shadow: 0 0 5px #38302e; }
 
 header nav .nav-link {
@@ -69,6 +69,14 @@ header nav .nav-link {
 header nav .active {
   font-weight: bold;
   color: #e06e59 !important; }
+
+.flecha {
+  position: fixed;
+  right: 30px;
+  bottom: 120px;
+  z-index: 1000; }
+  .flecha img {
+    width: 60px; }
 
 .banner {
   width: 100%;
@@ -176,7 +184,7 @@ header nav .active {
       box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75); }
     .mas-vendidos .mas-vendidos-item h3 {
       position: absolute;
-      background-color: #9e878494;
+      background-color: #C4C1A4;
       color: azure;
       width: 100%;
       top: 0;
@@ -184,7 +192,7 @@ header nav .active {
       text-align: center; }
     .mas-vendidos .mas-vendidos-item a {
       position: absolute;
-      background-color: #9e878494;
+      background-color: #C4C1A4;
       color: azure;
       width: 100%;
       bottom: 0;
@@ -197,7 +205,7 @@ header nav .active {
   margin-top: 25px;
   text-align: center;
   color: #38302e;
-  background-color: #9e878494;
+  background-color: #C4C1A4;
   color: azure;
   text-transform: uppercase;
   padding: 15px; }
@@ -225,7 +233,7 @@ header nav .active {
       box-shadow: -2px 7px 14px 0px rgba(0, 0, 0, 0.75); }
     .galeria_productos .productos_item h3 {
       position: absolute;
-      background-color: #9e878494;
+      background-color: #C4C1A4;
       color: azure;
       width: 100%;
       top: 0;
@@ -234,7 +242,7 @@ header nav .active {
       z-index: 1; }
     .galeria_productos .productos_item a {
       position: absolute;
-      background-color: #9e878494;
+      background-color: #C4C1A4;
       color: azure;
       bottom: 0;
       left: 0;
@@ -261,7 +269,7 @@ header nav .active {
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
-  background-color: #9e878494;
+  background-color: #C4C1A4;
   color: azure;
   text-transform: uppercase;
   padding: 15px;
@@ -277,14 +285,14 @@ header nav .active {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #9e878494;
+    background-color: #C4C1A4;
     color: azure;
     text-transform: uppercase;
     padding: 15px; }
   .sobreNos h2 {
     text-align: center;
     margin: 10px;
-    background-color: #9e878494;
+    background-color: #C4C1A4;
     color: azure;
     text-transform: uppercase;
     padding: 15px; }
@@ -307,7 +315,7 @@ header nav .active {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #9e878494;
+    background-color: #C4C1A4;
     color: azure;
     text-transform: uppercase;
     padding: 15px; }
@@ -317,7 +325,7 @@ header nav .active {
   .contact div {
     margin: 5px; }
   .contact .boton-form input {
-    background-color: #695d5b;
+    background-color: #C4C1A4;
     color: azure;
     border-color: #695d5b;
     border: 1px;
@@ -328,7 +336,7 @@ header nav .active {
     .contact .boton-form input:hover {
       background-color: #e06e59; }
   .contact .form-control:focus {
-    border-color: #9e878494;
+    border-color: #C4C1A4;
     box-shadow: 0 0 5px #38302e; }
   .contact .mb-3 .custom-width-1 {
     width: 500px; }
@@ -349,15 +357,15 @@ header nav .active {
     text-align: center;
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #9e878494;
+    background-color: #C4C1A4;
     color: azure;
     text-transform: uppercase;
     padding: 15px; }
   .faq .accordion-button:focus {
-    border-color: #9e878494;
+    border-color: #C4C1A4;
     box-shadow: 0 0 5px #38302e; }
   .faq .accordion-button:not(.collapsed) {
-    background-color: #9e878494;
+    background-color: #C4C1A4;
     color: azure; }
 
 /*footer{
@@ -380,7 +388,7 @@ header nav .active {
 footer {
   padding: 20px;
   border-top: 2px solid #c4c4c4;
-  background-color: #f5cec7;
+  background-color: #FFC6AC;
   font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: space-between;
